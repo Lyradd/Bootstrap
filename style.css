@@ -1,11 +1,12 @@
-/* Custom CSS to style and organize the cards */
+/* styles.css */
+
 .row {
-  display: flex; /* Menggunakan flexbox */
-  justify-content: flex-end; /* Mengatur justifikasi ke kanan */
+  display: flex;
+  justify-content: flex-end;
 }
 
 .col-xl-3 {
-  margin-left: 10px; /* Memberikan sedikit jarak antar kartu */
+  margin-left: 10px;
 }
 
 .card {
@@ -13,9 +14,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
-  flex: 1; /* Kartu akan memanfaatkan ruang yang tersedia */
-  min-width: 200px; /* Atur lebar minimum untuk kartu */
-  max-width: 250px; /* Atur lebar maksimum untuk kartu */
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
 }
 
 .card h3 {
